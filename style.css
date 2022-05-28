@@ -5,7 +5,7 @@
 }
 body{
   
-  background-image: url("/Photos/car.jpg");
+  background-image: url("assets/css/car.jpg");
   background-repeat: no-repeat;
   background-size:1244px 710px;
   align-items:center;
