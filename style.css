@@ -1,6 +1,6 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin: 1px;
+  padding: 1px;
 
 }
 body{
@@ -9,14 +9,29 @@ body{
   background-repeat: no-repeat;
   background-size:1370px 710px;
   align-items:center;
+  color:white;
 
 }
 
 .Navbar{
-  background-color:black;
-  /* margin-left:30px; */
+
+  margin-left:20px;
 
 }
+
+.licss{
+  display:inline;
+  padding:1px;
+}
+.navtitle{
+  color:white;
+}
+
+.licss_search{
+  display: inline;
+  float: right;
+}
+
 #search{
 
 }
@@ -25,25 +40,54 @@ body{
   margin:5px;
   padding:5px;
   position: absolute;
-  left: 1112px;
-  top: 6px;
+  left: 1062px;
+  top: 147px;
 
 }
 
 #git-icon{
   margin: 4px;
+  }
+
+#giti{
+  transition:1s;
+}
+
+#giti:hover{
+  transform:rotate(360deg);
 }
 
 #linkedin-icon{
   margin:4px;
 }
+#linki{
+  transition:1s;
+}
+
+#linki:hover{
+  transform:rotate(360deg);
+}
 
 #insta-icon{
   margin:4px;
 }
+#instai{
+  transition:1s;
+}
+
+#instai:hover{
+  transform:rotate(360deg);
+}
 
 #fb-icon{
   margin:4px;
+}
+#fbi{
+  transition:1s;
+}
+
+#fbi:hover{
+  transform:rotate(360deg);
 }
 
 #info1{
@@ -76,6 +120,9 @@ body{
 
 }
 .logo{
+
+  display: inline;
+  align-items: center;
 
 }
 
