@@ -11,8 +11,10 @@ body{
   align-items:center;
 
 }
+
 .Navbar{
   background-color:black;
+  /* margin-left:30px; */
 
 }
 #search{
